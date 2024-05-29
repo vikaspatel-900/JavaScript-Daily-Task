@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="Application-form">
+        <form action="">
+            <fieldset>
+                <legend>Application Form</legend>
+                <div class="flex-div">
+                    <label for="fname">First Name :</label>
+                    <input type="text" name="" id="fname" placeholder="Enter Your First Name" required>
+
+                    <label for="lname">Last Name :</label >
+                    <input type="text" name="" id="lname" placeholder="Enter Your Last Name" required>
+                </div>
+
+                <div class="flex-div">
+                    <label for="birth">Date Of Birth :</label >
+                    <input type="date" name="" id="birth" required>
+
+                    <label for="age">Age :</label>
+                    <input type="number" name="" id="age" placeholder="Age" required>
+                </div>
+
+                <div class="flex-div">
+
+                    <label for="gender">Gender :</label>
+                    <select name="" id="gender radio-flex">
+                        <option value="">Gender</option>
+                        <option value="male">Male</option>
+                        <option value="male">Female</option>
+                    </select>
+
+                    <label for="email">Email Address :</label>
+                    <input type="email" name="" id="email" placeholder="Enter Your Email Address" required>
+
+                </div>
+
+
+
+
+                <div class="flex-div radio-flex">
+
+                    <label for="">Position Availlable :</label>
+
+
+                    <label for="jd">Junior Developer</label>
+                    <input class="inp-chek" type="radio" name="post" id="jd">
+
+
+                    <label for="mld">Junior Developer</label>
+                    <input class="inp-chek" type="radio" name="post" id="mld">
+
+                    <label for="sd">Junior Developer</label>
+                    <input class="inp-chek" type="radio" name="post" id="sd">
+
+                </div>
+
+
+                <div class="flex-div radio-flex">
+
+                    <label for="">Programing Language :</label>
+
+
+                    <label for="java">Java</label>
+                    <input class="inp-chek" type="checkbox" name="" id="java">
+
+                    <label for="js">Javascript</label>
+                    <input class="inp-chek"  type="checkbox" name="" id="js">
+
+                    <label for="python">Python</label>
+                    <input class="inp-chek"  type="checkbox" name="" id="python">
+                </div>
+
+
+
+                <div class="flex-div">
+
+                    <label for="password">Password :</label>
+                    <input type="password" name="" id="password" placeholder="Password" required>
+
+
+                    <label for="cpassword">Confirm Password :</label>
+                    <input type="password" name="" id="cpassword" placeholder="Confirm Password" required>
+                </div>
+
+
+                <div class="flex-div">
+
+                    <button class="submit" type="submit">Submit</button>
+                    <button class="reset" type="reset">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>

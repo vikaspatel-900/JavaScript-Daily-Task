@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8, 34, 34);
+}
+
+
+
+.Application-form{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+fieldset{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 45px;
+    padding-left: 40px;
+    font-size: 18px;
+    color:white ;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 2px 1px 10px white;
+    padding: 50px 30px;
+    
+    
+}
+
+
+.flex-div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+
+button{
+    padding: 4px 17px;
+    font-size: 17px;
+    box-shadow: 2px 1px 6px grey;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.reset{
+    background-color: red;
+   
+}
+
+.reset:hover{
+    box-shadow: 5px 5px 14px 4px white;
+    background-color: rgb(198, 52, 52);
+    color: white;
+}
+
+.submit{
+    background-color: blue;
+    
+}
+
+.submit:hover{
+    box-shadow: 5px 5px 14px 4px white;
+    background-color: rgb(52, 52, 204);
+    color: wheat;
+}
+
+input{
+    padding-left: 8px;
+    border-radius: 3px;
+    height: 28px;
+}
+
+
+.inp-chek{
+    width: 16px;
+    height: 16px;
+    
+}
+
+legend{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+#age{
+    width: 80px;
+}
+
+
+
+.radio-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

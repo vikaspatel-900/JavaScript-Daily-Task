@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.login-form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:dimgray;
+    font-family: "Poppins", sans-serif;
+}
+
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    font-size: 16px;
+    box-shadow: 2px 2px 8px black;
+
+}
+
+
+.flex-div{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+
+button{
+    padding: 5px 20px;
+    width: 250px;
+    height: 35px;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: rgb(3, 84, 106);
+    color: white;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: blue;
+    box-shadow: 2px 2px 7px 2px black;
+}
+
+
+input{
+    width: 250px;
+    height: 35px;
+    padding: 5px 5px;
+    
+}
+
+
+.forgot{
+    font-size: 12px;
+}
+
+.login{
+    font-size: 18px;
+}
