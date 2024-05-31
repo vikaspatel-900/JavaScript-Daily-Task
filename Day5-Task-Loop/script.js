@@ -1,3 +1,7 @@
+
+//--------------------------------------------------------1st Q -----------------------------------
+
+
 // let a=prompt("Enter a number");
 // let i=1;
 // while(i<=10){
@@ -5,6 +9,19 @@
 //     document.write(j+"<br>")
 //     i++;
 // }
+
+
+
+//---------------------------------------------------2nd Q -------------------------------------------------------
+
+
+
+
+
+
+
+
+
 
 
 
@@ -26,14 +43,22 @@
 
 //--------------------------------------------- 4th Q -----------------------------------------------------------------
 
+// let i=1;
+// let myNum=55;
 
+// let UserNum=prompt("Please Enter Guessing Number");
 
+// while(i<=5){
+//     if(UserNum==myNum){
+//         document.write("Congratulations You Are Win Of this game")
+//     }
 
+//     else{
+//         prompt("Please Enter Guessing Number");
+//     }
 
-
-
-
-
+//     i++;
+// }
 
 
 
@@ -51,6 +76,19 @@
 //     document.write(num + " is odd number")
 // }
 
+
+
+//---------------------------------------------------6th Q-------------------------------------------------
+
+// let userNum=prompt("enter a number");
+
+// if(userNum%2==0){
+//     document.write(userNum + " is a odd number")
+// }
+
+// else{
+//     document.write(userNum + " is even number")
+// }
 
 
 
@@ -125,6 +163,20 @@
 
 
 
+//----------------------------------------------------11th Q --------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //--------------------------------------------------------12th-----------------------------------------------
 
@@ -172,6 +224,16 @@
 // }
 
 
+//------------------------------------------14th Q ----------------------------------------------------------
+
+
+
+
+
+
+
+
+
 
 //---------------------------------------------15th-------------------------------------------
 
@@ -215,5 +277,53 @@
 
 //     a++
 // }
+
+
+
+
+//-----------------------------------------------------18th--------------------------------------------------------
+
+// let age=prompt("Please Enter your age")
+//     age=Number.parseInt(age)
+   
+
+// if(age<12 && age>0){
+//     document.write("your ticket price is 5 rupaye")
+// }
+
+// else if(age>12 && age<18){
+//     document.write("Your ticket price is 10 rupaye")
+// }
+
+
+// else if(age>18 && age<60){
+//     document.write("Your ticket price is 20 rupaye")
+// }
+
+// else if(age>60){
+//     document.write("Your ticket price is 15 rupaye")
+// }
+
+
+
+
+
+
+//---------------------------------------------------19th--------------------------------------------------------------------
+
+// let amount=prompt("Enter your amound");
+
+// if(amount>=100){
+//     document.write("discount is 20")
+// }
+
+// else if(amount>=50){
+//     document.write("discount is 10 ")
+// }
+
+// else{
+//     document.write("no discount")
+// }
+
 
 
